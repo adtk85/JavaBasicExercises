@@ -11,16 +11,19 @@ import java.util.Scanner;
  *
  * @author CLEVO Computer
  */
-public class ex7 {
+public class RectanglePerimeters {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Number:");
-        int a;
-        a = input.nextInt();
-        for(int i=1;i<11;i++)
-            System.out.println(a + " x " + i + " = " + (a*i));
-        
-       
+        System.out.println("Width: ");
+        double w = input.nextDouble();
+        System.out.println("Height: ");
+        double h = input.nextDouble();
+        double area = w*h;
+        double per = 2*(w+h);
+      
+        System.out.println("Area: " + area);
+        System.out.println("Perimeter: " + per);
+                
     }
     
 }

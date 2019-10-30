@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author CLEVO Computer
  */
-public class ex11 {
+public class CircleParameters {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Radius: ");
